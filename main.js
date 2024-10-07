@@ -417,8 +417,8 @@ class Clayton {
       }
 
       // Wait for 24 hours before starting the next cycle
-      logger.info("Waiting 24 hours before starting the next cycle");
-      await this.countdown(24 * 60 * 60);
+      logger.info("Waiting 1 hours before starting the next cycle");
+      await this.countdown(60 * 60);
     }
   }
 }
